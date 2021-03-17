@@ -1,7 +1,7 @@
 {
   "name": "angular2-notifications",
   "typings": "./dist/index.d.ts",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "scripts": {
     "build": "ng run angular2-notifications:build:production",
     "postbuild": "tsc ./scripts/css-bundle.ts && ts-node ./scripts/css-bundle.js && cp ./dist/_theme.scss ./dist/angular2-notifications/_theme.scss",

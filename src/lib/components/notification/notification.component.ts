@@ -97,7 +97,6 @@ import { NotificationsService } from '../../services/notifications.service';
     ])
   ],
   templateUrl: './notification.component.html',
-  styleUrls: ['./notification.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 
